@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 *{
     margin: 0;
@@ -10,20 +11,29 @@ body{
     text-align: center;
     margin: auto;
     display: block;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
     background-color: orange;
 }
 
 #titulo{
     margin-top: 12px;
     color: aliceblue;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 img{
     border-radius: 50%;
     width: 310px;
     height: 310px;
+}
+
+p{
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: rgb(251, 251, 206);
+    font-size: 40px;
 }
